@@ -10,9 +10,12 @@ public class Lab03vst
 	{
       System.out.println("Lab03, 80 Point Version\n");
       int seconds=10000;
+	  System.out.println("Starting Seconds:" + seconds);
 	  int hours=seconds/3600;
-	  System.out.println("Hours; "+hours);
+	  System.out.println("Hours: "+hours);
 	  int remainder = (seconds%3600);
+	  System.out.println("Minutes:"+remainder/60);
+	  System.out.println("Seconds:" + remainder%60);
 	}
 }
 
